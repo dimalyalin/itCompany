@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/intec-test-task/static/css/main.11053767.css",
+    "main.js": "/intec-test-task/static/js/main.f55312f1.js",
+    "static/js/453.db2b4731.chunk.js": "/intec-test-task/static/js/453.db2b4731.chunk.js",
+    "static/media/banner_img.svg": "/intec-test-task/static/media/banner_img.090bf0fd2639f1d39c81.svg",
+    "static/media/statistic__bg.svg": "/intec-test-task/static/media/statistic__bg.6623fe04e1323a8417c8.svg",
+    "static/media/AI_3.svg": "/intec-test-task/static/media/AI_3.a37fca41247ec5b29ae4.svg",
+    "static/media/AI_2.svg": "/intec-test-task/static/media/AI_2.b8e92fd71b4de35fd101.svg",
+    "static/media/header__bg.svg": "/intec-test-task/static/media/header__bg.2c0f6623cd012e55428a.svg",
+    "static/media/right-top.svg": "/intec-test-task/static/media/right-top.953612c905c368f7a63f.svg",
+    "static/media/bottom.svg": "/intec-test-task/static/media/bottom.b7d8bfb21100c90d55f2.svg",
+    "static/media/howEarnImage3.svg": "/intec-test-task/static/media/howEarnImage3.59fcd795a33de8a65177.svg",
+    "static/media/howEarnImage1.svg": "/intec-test-task/static/media/howEarnImage1.0afdc9944fadd382cd2c.svg",
+    "static/media/Montserrat-Bold.ttf": "/intec-test-task/static/media/Montserrat-Bold.50f0257aa1e905f4bfaf.ttf",
+    "static/media/Montserrat-Medium.ttf": "/intec-test-task/static/media/Montserrat-Medium.b8c6753baa964ccac1ba.ttf",
+    "static/media/Montserrat-Regular.ttf": "/intec-test-task/static/media/Montserrat-Regular.24785cc015b27a3e964b.ttf",
+    "static/media/adv2.svg": "/intec-test-task/static/media/adv2.9e3e256e71979fdc6aef134b71317d71.svg",
+    "static/media/adv1.svg": "/intec-test-task/static/media/adv1.e933774daaf20c4dc3a75ada3e68c631.svg",
+    "static/media/adv3.svg": "/intec-test-task/static/media/adv3.e47f856d020ab49de7958ddf9dcbd932.svg",
+    "static/media/grid1.svg": "/intec-test-task/static/media/grid1.2414028aa5a59792721fba50fbfb9ed6.svg",
+    "static/media/Step3.svg": "/intec-test-task/static/media/Step3.26d70dc154ad91278fb7fe7a356f284b.svg",
+    "static/media/Step2.svg": "/intec-test-task/static/media/Step2.d1bddec914f8b9755032cc92a07cdf42.svg",
+    "index.html": "/intec-test-task/index.html",
+    "static/media/adv4.svg": "/intec-test-task/static/media/adv4.00c17bde52bd120eec1a9c6e8f55c9f6.svg",
+    "static/media/Step1.svg": "/intec-test-task/static/media/Step1.8feb78f25d70a309d0018ebaff0bf1ab.svg",
+    "static/media/VectorDown.svg": "/intec-test-task/static/media/VectorDown.3509dbe0d5def0e4f6fdfd84392be3cf.svg",
+    "main.11053767.css.map": "/intec-test-task/static/css/main.11053767.css.map",
+    "main.f55312f1.js.map": "/intec-test-task/static/js/main.f55312f1.js.map",
+    "453.db2b4731.chunk.js.map": "/intec-test-task/static/js/453.db2b4731.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.11053767.css",
+    "static/js/main.f55312f1.js"
+  ]
+}

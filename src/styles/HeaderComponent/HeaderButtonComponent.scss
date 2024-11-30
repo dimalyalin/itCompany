@@ -1,0 +1,37 @@
+@import "../../fonts/stylesheet.scss";
+
+.header__button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #194DD2;
+    outline: none;
+    border: none;
+    gap: 23px;
+    width: 468px;
+    padding-top: 46px;
+    list-style: none;
+    text-decoration: none;
+
+    &:hover,
+    &:focus {
+        cursor: pointer;
+        background: #123899;
+    }
+
+    span {
+        color: #fff;
+        font-family: "Montserrat-Bold";
+        font-size: 28px;
+        line-height: 140%;
+        letter-spacing: 3%;
+        text-align: center;
+        max-width: 282px;
+        font-weight: 100;
+    }
+
+    img {
+        height: 59.5px;
+    }
+}

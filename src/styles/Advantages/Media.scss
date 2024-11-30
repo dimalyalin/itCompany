@@ -1,0 +1,71 @@
+@media (max-width: 1290px) {
+    .advantages__wrapper .advantages__bottom .adv .adv__text-content {
+        width: auto;
+    }
+
+    .advantages__wrapper .advantages__bottom {
+        grid-gap: 0 100px;
+    }
+}
+
+@media (max-width: 909px) {
+    .advantages__wrapper .advantages__bottom .adv .adv__text-content .adv__title::after {
+        top: 47px;
+    }
+}
+
+
+@media (max-width: 660px) {
+    .advantages__wrapper .advantages__bottom .adv .adv__text-content .adv__title::after {
+        display: none  ;
+    }
+}
+
+
+@media (max-width: 550px) {
+    .advantages__wrapper .advantages__bottom .adv .adv__text-content .adv__title {
+        font-size: 12px;
+    }
+
+    .advantages__wrapper .advantages__bottom .adv .adv__text-content .adv__description {
+        font-size: 12px;
+    }
+
+    .advantages__wrapper .controls__calcButton {
+        font-size: 12px;
+    }
+
+    .advantages__wrapper .controls__regButton {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 525px) {
+    .advantages__wrapper .advantages__bottom {
+        grid-template-areas: "item1"
+                             "item2"
+                             "item3"
+                             "item4";
+    }
+
+    .advantages__wrapper .advantages__bottom .adv2, .advantages__wrapper .advantages__bottom .adv4 {
+        left: 0;
+        margin-top: 61px;
+    }
+}
+
+
+@media (max-width: 475px) {
+    .advantages__wrapper .advantages__controls {
+        flex-direction: column;
+        
+    }
+
+    .advantages__wrapper .controls__regButton {
+        width: 241px;
+    }
+
+    .advantages__title {
+        text-align: center;
+    }
+}

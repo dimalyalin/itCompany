@@ -1,0 +1,101 @@
+@media (max-width: 1285px) {
+    .statistic__wrapper {
+        background-size: auto;
+        
+    }
+
+    .statistic__wrapper .statistic__content {
+        padding: 0;
+    }
+}
+
+
+@media (max-width: 970px) {
+    .statistic__wrapper {
+        height: 640px;
+    }
+
+    .statistic__wrapper .statistic__content {
+        display: grid;
+        grid-template-areas: "item1 item2"
+                             "item3 item4";
+        gap: 20px 0;
+    }
+}
+
+
+@media (max-width: 750px) {
+    .statistic__wrapper .statistic__title::after {
+        left: 125px;
+    }
+
+
+    .statistic__wrapper .statistic__content .stat .upper__text {
+        font-size: 42px;
+    }
+}
+
+
+@media (max-width: 560px) {
+    .statistic__wrapper .statistic__content .stat .upper__text {
+        font-size: 30px;
+    }
+
+    .statistic__wrapper .statistic__content .stat::after {
+        top: 48px;
+    }
+
+    .statistic__wrapper .statistic__controls .statistic__calcButton {
+        font-size: 12px;
+    }
+
+    .statistic__wrapper .statistic__controls .unionUs__button {
+        font-size: 12px;
+    }
+
+    .statistic__wrapper .statistic__controls .statistic__calcButton {
+        padding: 12px 15px;
+    }
+
+}
+
+@media (max-width: 458px) {
+    .statistic__wrapper .statistic__controls {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .statistic__wrapper .statistic__controls .unionUs__button {
+        width: 241px;
+    }
+
+    .statistic__wrapper .statistic__controls .statistic__calcButton {
+        width: 241px;
+    }
+}
+
+
+@media (max-width: 410px) {
+    .statistic__wrapper .statistic__content {
+        display: grid;
+        grid-template-areas: "item1"
+                             "item2"
+                             "item3"
+                             "item4";
+        gap: 20px 0;
+    }
+
+    .statistic__wrapper {
+        height:800px;
+    }
+
+    .statistic__wrapper .statistic__content {
+        margin-bottom: 55px;
+    }
+}
+
+@media (max-width: 350px) {
+    .statistic__wrapper .statistic__controls .statistic__calcButton {
+        margin-top: 15px;
+    }
+}

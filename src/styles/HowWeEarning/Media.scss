@@ -1,0 +1,105 @@
+@media (max-width: 1093px) {
+    .block2 {
+        height: 100%;
+    }
+}
+
+@media (max-width: 890px) {
+    .howWeEarn__wrapper .text__content__title {
+        font-size: 30px;
+    }
+}
+
+
+@media (max-width: 750px) {
+    .howWeEarn__wrapper .text__content__title {
+        font-size: 28px;
+    }
+    .howWeEarn__wrapper .text__content p {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 735px) {
+    .howWeEarn__wrapper .picture__content .block2 .howWeEarn_block_text {
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 710px) {
+    .howWeEarn__wrapper {
+        flex-direction: column;
+    }
+
+    .howWeEarn__wrapper .picture__content .block2 {
+        padding: 15px 0px;
+    }
+
+    .howWeEarn__wrapper .picture__content .block2 .howWeEarn_block_text {
+        padding: 81px 39px;
+    }
+
+    .picture__content {
+        margin-top: 30px;
+    }
+
+    .howWeEarn__wrapper .picture__content .block3 {
+        background-size: 100%;
+    }
+}
+
+@media (max-width: 585px) {
+    .howWeEarn__wrapper .picture__content .block1 {
+        padding: 100px;
+    }
+
+    .howWeEarn__wrapper .picture__content .block2 {
+        padding: 15px 0px;
+    }
+}
+
+@media (max-width: 500px) {
+    .howWeEarn__wrapper .picture__content .block2 .howWeEarn_block_text {
+        padding: 15px;
+    }
+}
+
+@media (max-width: 440px) {
+    .howWeEarn__wrapper .picture__content .block2 .howWeEarn_block_text {
+        font-size: 16px;
+    }
+}
+
+
+@media (max-width: 415px) {
+    .howWeEarn__wrapper .picture__content .block1 {
+        width: 100%;
+    }
+}
+
+
+@media (max-width: 399px) {
+    .howWeEarn__wrapper .picture__content .block2 .howWeEarn_block_text {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 382px) {
+    .howWeEarn__wrapper .picture__content .block2 .howWeEarn_block_text {
+        font-size: 14px;
+    }
+
+    .howWeEarn__wrapper .picture__content .block1 {
+        padding: 80px 74px;
+    }
+}
+
+@media (max-width: 367px) {
+    .howWeEarn__wrapper .picture__content .block2 .howWeEarn_block_text {
+        font-size: 14px;
+    }
+
+    .howWeEarn__wrapper .picture__content .block1 {
+        width: 100%;
+    }
+}

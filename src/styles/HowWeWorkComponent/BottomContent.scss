@@ -1,0 +1,95 @@
+.bottom__content {
+    // display: flex;
+    // flex-direction: row;
+
+    display: grid;
+    // grid-template-areas: "grid1 grid2 grid3";
+    grid-template-columns: 31% 31% 31%;
+    gap: 35px;
+    margin-bottom: 112px;
+
+
+    .grid {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        border: 2px;
+        background-color: #FFFFFF;
+        padding-left: 29px;
+        padding-right: 57px;
+        padding-top: 47px;
+        padding-bottom: 41px;
+        width: 100%;
+        -webkit-box-shadow: 0px 24px 30px -6px rgba(0,0,0,0.14);
+        -moz-box-shadow: 0px 24px 30px -6px rgba(0,0,0,0.14);
+        box-shadow: 0px 24px 30px -6px rgba(0,0,0,0.14);
+
+
+
+        .grid__header {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            flex-shrink: 1;
+            gap: 49px;
+            margin-bottom: 45px;
+
+            .bottom__logo-image {
+                width: 40px;
+                height: 44px;
+                position: relative;
+                display: inline-block;
+
+                // &::after {
+                //     right: -3px;
+                // }
+            }
+        
+            .bottom__title {
+                font-size: 13px;
+                letter-spacing: 0.3px;
+                line-height: 20px;
+                font-family: "Montserrat-Bold";
+                width: 100%;
+                position: relative;
+                display: inline-block;
+
+                &::before {
+                    position: absolute;
+                    content: "";
+                    opacity: .3;
+                    left: -25px;
+                }
+                // padding: 0 30px;
+                // border-left: 1px solid black;
+
+                // &::before {
+                //     position: absolute;
+                //     content: "";
+                //     height: 30px;
+                //     width: 2px;
+                //     background: #e3e3e3;
+                // }
+            }
+
+            .bottom__logo-image::after, .bottom__title::before {
+                content: '';
+                position: absolute;
+                top: 0;
+                bottom: 0;
+                width: 1px; /* Ширина вертикальной линии */
+                background-color: black; /* Цвет вертикальной линии */
+              }
+        }
+
+        .bottom__description {
+            font-size: 14px;
+            font-family: "Montserrat-Regular";
+            line-height: 150%;
+            margin-top: -15px;
+        }
+    }
+}
+
+

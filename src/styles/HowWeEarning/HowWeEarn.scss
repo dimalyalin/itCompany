@@ -1,0 +1,120 @@
+@import "../utils/Animations.scss";
+
+.howWeEarn__wrapper {
+    display: flex;
+    flex-direction: row;
+    // align-items: center;
+    margin-top: 96px;
+
+
+    .text__content__title {
+        position: relative;
+        font-size: 34px;
+        font-family: "Montserrat-Bold";
+        letter-spacing: 0.9px;
+        margin-top: 24px;
+
+
+        &::after {
+            position: absolute;
+            content: "";
+            width: 51px;
+            height: 3px;
+            top: 143%;
+            left: 3px;
+            background: #133F8D;
+        }
+    }
+
+    .text__content {
+        display: flex;
+        flex-direction: column;
+        gap: 11px;
+
+        p {
+            font-family: "Montserrat-Medium";
+            font-size: 14px;
+            line-height: 20px;
+            letter-spacing: 0.5px;
+
+            .howWeEarn__readMore {
+                color: #0A51CB;
+                position: relative;
+                cursor: pointer;
+
+                &::after {
+                    content: "";
+                    position: absolute;
+                    top: 100%;
+                    left: 0;
+                    width: 10px;
+                    height: 1px;
+                    opacity: 0.4;
+                    background-color: blue ;
+                    animation: read-more__animate 1.2s ease-out infinite;
+                }
+            }
+
+            .howWeEarn__moreInfo {
+                display: none;
+            }
+    
+            .moreInfo--active {
+                display: block;
+            }
+    
+            .readMore--active {
+                display: none;
+            }
+
+
+            &:first-child {
+                margin-top: 53px;
+            }
+        }
+
+
+    }
+
+
+    .picture__content {
+        
+
+        .block1 {
+            width: 240px;
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+            background-image: url("../../img/howEarnImage1.svg");
+            background-size: cover;
+        }
+        
+        .block2 {
+            display: flex;
+            justify-content: flex-end;
+            align-items: flex-end;
+            background: none;
+            background-color: #0A51CB;
+            padding: 15px 0px;
+
+
+            .howWeEarn_block_text {
+                // TODO: добавить стили для текста внутри блока
+                font-size: 32px;
+                font-family: "Montserrat-Bold";
+                color: #fff;
+                padding: 15px;
+            }
+        }
+
+        .block3 {
+            background-image: url("../../img/howEarnImage3.svg");
+            background-size: contain;
+        }
+    }
+}
+
+
+.howWeEarning__button {
+    margin-top: 50px;
+    padding: 10px 20px;
+}

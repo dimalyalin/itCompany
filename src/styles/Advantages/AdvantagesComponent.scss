@@ -1,0 +1,141 @@
+.advantages__wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+    margin-bottom: 88px;
+
+
+    .advantages__top {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 43px;
+
+        .advantages__question {
+            position: relative;
+            font-family: "Montserrat-Bold";
+            font-size: 14px;
+            color: #133F8D;
+
+            &::after {
+                position: absolute;
+                content: "";
+                width: 52px;
+                height: 2px;
+                top: 42px;
+                left: 54px;
+                background: #133F8D;
+            }
+        }
+    }
+
+
+    .advantages__bottom {
+        display: grid;
+        grid-template-areas: "adv1 adv2"
+                             "adv3 adv4";
+        
+
+        .adv {
+            display: flex;
+            flex-direction: row;
+            align-items: flex-start;
+            gap: 20px;
+
+
+            img {
+                width: 68px;
+            }
+
+            .adv__text-content {
+                display: flex;
+                flex-direction: column;
+                gap: 36px;
+                width: 600px;
+
+                .adv__title {
+                    position: relative;
+                    font-family: "Montserrat-Bold";
+                    font-size: 15px;
+                    line-height: 150%;
+
+                    &::after {
+                        position: absolute;
+                        content: "";
+                        width: 29px;
+                        height: 3px;
+                        top: 37px;
+                        left: 0;
+                        background: #133F8D;
+                    }
+                }
+    
+                .adv__description {
+                    font-family: "Montserrat-Regular";
+                    font-size: 14px;
+                    letter-spacing: 0.7px;
+                    line-height: 150%;
+                }
+            }
+        }
+
+
+        .adv2, .adv4 {
+            position: relative;
+            left: -71px;
+        }
+
+        .adv1, .adv2 {
+            margin-top: 15px;
+        }
+
+        .adv3, .adv4 {
+            margin-top: 61px;
+        }
+        
+    }
+
+    .advantages__controls {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        padding-left: 28px;
+    }
+
+    .controls__regButton {
+        font-family: "Montserrat-Medium";
+        font-size: 14px;
+        letter-spacing: 0.5px;
+        margin: 0;
+        padding: 16px 100px;
+    }
+
+
+    .controls__calcButton {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 14px 15px;
+        border: 2px #000 solid;
+        width: 241px;
+        border-radius: 36px;
+        background-color: transparent;
+        text-decoration: none;
+
+        color: #000;
+        letter-spacing: 0.5px;
+
+        transition: box-shadow 0.1s ease;
+
+            &:hover,
+            &:focus {
+                transition: box-shadow 0.1s ease;
+                -webkit-box-shadow: 1px 2px 72px 1px rgba(153,153,153,1);
+                -moz-box-shadow: 1px 2px 72px 1px rgba(153,153,153,1);
+                box-shadow: 1px 2px 72px 1px rgba(153,153,153,1);
+            }
+    }
+}

@@ -1,0 +1,96 @@
+@media (max-width: 1120px ) {
+    .QA__wrapper .QA__content .QA__answerContent .answer p:first-child {
+        margin-top: 40px;
+    }
+
+    .QA__wrapper .QA__content .QA__answerContent .question__title::after {
+        top: 132%;
+    }
+
+    .QA__wrapper .QA__content .QA__answerContent .question__title {
+        font-size: 20px;
+    }
+
+    .QA__wrapper .QA__content .QA__questions .question {
+        width: 100%;
+    }
+}
+
+@media (max-width: 878px) {
+
+
+
+
+    .QA__wrapper .QA__content .QA__answerContent {
+        padding: 36px 19px 0 19px;
+    }
+}
+
+
+@media (max-width: 819px) {
+    .QA__wrapper .QA__content .QA__questions .question span {
+        font-size: 12px;
+    }
+
+    .QA__wrapper .QA__content .QA__questions .question {
+        padding: 20px 35px;
+    }
+
+    .QA__wrapper .QA__content .QA__questions .question span:first-child {
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 785px) {
+    .QA__wrapper .QA__content .QA__questions .question {
+        gap: 15px;
+    }
+}
+
+@media (max-width: 750px) {
+    .QA__wrapper .QA__content {
+        flex-direction: column;
+    }
+
+    .QA__wrapper .QA__content .QA__answerContent {
+        width: 100%;
+    }
+
+    .QA__wrapper .QA__content .QA__answerContent .question__title::after {
+        left: 45%;
+    }
+
+    .QA__wrapper .QA__content .QA__questions .question {
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .QA__wrapper .QA__title::after {
+        top: 130%;
+    }
+}
+
+@media (max-width: 391px) {
+    .QA__wrapper .QA__content .QA__answerContent .question__title::after {
+        top: 114%;
+    }
+}
+
+
+@media (max-width: 380px) {
+    .QA__wrapper .QA__content .QA__answerContent .question__title::after {
+        left: 34%;
+    }
+
+    .QA__wrapper .QA__content .QA__questions .question span {
+        line-height: 15px;
+    }
+}
+
+
+@media (max-width: 350px) {
+    .QA__wrapper .QA__content .QA__questions .question {
+        gap: 15px;
+        padding: 13px 12px;
+    }
+}

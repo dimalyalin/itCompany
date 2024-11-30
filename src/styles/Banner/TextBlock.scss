@@ -1,0 +1,147 @@
+.textBlock {
+    display: flex;
+    flex-direction: row;
+    gap: 120px;
+    padding-left: 90px;
+
+
+
+    .textBlock__header {
+        display: flex;
+        flex-direction: column;
+        // width: 40%;
+    
+    
+    
+        .textBlock__title {
+            color: #Ffffff;
+            margin-top: 157px;
+            position: relative;
+            font-size: 32px;
+            line-height: 40px;
+            letter-spacing: 1.5px;
+
+            &::after {
+                position: absolute;
+                content: "";
+                width: 52px;
+                height: 3px;
+                left: 0;
+                top: 172px;
+                background: #Ffffff;
+            }
+        }
+
+        .textBlock__button {
+            width: 235px;
+            margin-top: 100px;
+            padding: 15px 10px;
+            font-size: 14px;
+            letter-spacing: 0.5px;
+            font-family: "Montserrat-Medium";
+            transition: box-shadow 0.1s ease;
+
+            &:hover,
+            &:focus {
+                transition: box-shadow 0.1s ease;
+                -webkit-box-shadow: 1px 2px 72px 1px rgba(153,153,153,1);
+                -moz-box-shadow: 1px 2px 72px 1px rgba(153,153,153,1);
+                box-shadow: 1px 2px 72px 1px rgba(153,153,153,1);
+            }
+        }
+    }
+
+
+    .textBlock__roadmap {
+        display: flex;
+        flex-direction: column;
+        margin-top: 115px;
+        gap: 38px;
+
+
+
+        .roadmap__item {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            gap: 27px;
+
+            &:first-child .roadmap__step::before {
+                position: absolute;
+                content: "";
+                border-style: groove dashed;
+                transform: rotateZ(180deg);
+                left: 45%;
+                top: -31px;
+                height: 30px;
+                background: #Ffffff;
+                opacity: .1;
+            }
+
+            &:last-child .roadmap__step::after {
+                position: absolute;
+                content: "";
+                border-style: none dashed;
+                transform: rotateZ(180deg);
+                left: 45%;
+                top: 70px;
+                height: 30px;
+                background: #Ffffff;
+                opacity: .1;
+            }
+
+
+            .roadmap__step {
+                position: relative;
+
+
+                &::after {
+                    position: absolute;
+                    content: "";
+                    border-style: dashed;
+                    transform: rotateX(180deg);
+                    left: 45%;
+                    top: 70px;
+                    height: 60px;
+                    background: #Ffffff;
+                    opacity: .3;
+                }
+
+                img {
+                    width: 70px;
+                }
+            }
+
+            .roadmap__stepInfo {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                // align-items: center;
+                padding-right: 19px;
+            }
+
+
+
+            .roadmap__item-title {
+                color: #Ffffff;
+                font-size: 14px;
+                font-family: "Montserrat-Bold";
+                font-weight: 200;
+                margin-bottom: 10px;
+            }
+    
+            .roadmap__item-description {
+                color: #Ffffff;
+                font-size: 14px;
+                font-family: "Montserrat-Regular";
+            }
+        }
+
+        
+    }
+
+    
+}
+
+
+

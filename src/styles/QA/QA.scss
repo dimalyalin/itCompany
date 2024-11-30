@@ -1,0 +1,147 @@
+.QA__wrapper {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    // align-items: center;
+
+    .QA__title {
+        font-size: 32px;
+        letter-spacing: 2px;
+        font-family: "Montserrat-Bold";
+        position: relative;
+        margin: 0 auto;
+
+        &::after {
+            position: absolute;
+            content: "";
+            top: 60px;
+            left: 44%;
+            width: 52px;
+            height: 3px;
+            background-color: blue;
+        }
+    }
+
+
+    .QA__content {
+        display: flex;
+        flex-direction: row;
+        gap: 13px;
+        margin-top: 95px;
+
+
+        .QA__questions {
+            display: flex;
+            flex-direction: column;
+            grid-area: q;
+            gap: 10px;
+
+            .question {
+                -webkit-box-shadow: -2px 2px 27px -7px rgba(0,0,0,0.39);
+                -moz-box-shadow: -2px 2px 27px -7px rgba(0,0,0,0.39);
+                box-shadow: -2px 2px 27px -7px rgba(0,0,0,0.39);
+                display: flex;
+                width: 615px;
+                height: 105px;
+
+                padding: 30px 35px;
+                gap: 30px;
+
+                span {
+                    &:first-child {
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        font-family: "Montserrat-Bold";
+                        font-weight: 900;
+                        font-size: 32px;
+                        color: blue;
+                    }
+
+
+                    font-family: "Montserrat-Medium";
+                    letter-spacing: 0.5px;
+                    font-size: 14px;
+                    line-height: 23px;
+                }
+
+                a {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+
+                .vectorImage {
+                    margin-left: 32px;
+                    transition: transform 0.4s ease;
+
+
+                    &:hover {
+                        cursor: pointer;
+                        -webkit-box-shadow: 1px 5px 42px 0px rgba(0,0,0,0.75);
+                        -moz-box-shadow: 1px 5px 42px 0px rgba(0,0,0,0.75);
+                        box-shadow: 1px 5px 42px 0px rgba(0,0,0,0.75);
+                    }
+                }
+
+                .vectorImage--active {
+                    transform: rotate(180deg);
+                    transition: transform 0.4s ease;
+                }
+            }
+        }
+
+        .QA__answerContent {
+            width: 600px;
+            height: 335px;
+            background-color: #0A51CB;
+            padding: 53px 0px 0px 50px;
+            -webkit-box-shadow: -2px 2px 27px -7px rgba(0,0,0,0.39);
+            -moz-box-shadow: -2px 2px 27px -7px rgba(0,0,0,0.39);
+            box-shadow: -2px 2px 27px -7px rgba(0,0,0,0.39);
+
+
+            .question__title {
+                position: relative;
+                font-family: "Montserrat-Bold";
+                font-size: 28px;
+                color: white;
+                transition: all 0.3s ease;
+
+
+                &::after {
+                    position: absolute;
+                    content: "";
+                    top: 130%;
+                    left: 0;
+                    width: 52px;
+                    height: 3px;
+                    background-color: white;
+                }
+            }
+
+
+            .answer {
+                display: flex;
+                flex-direction: column;
+                gap: 12px;
+
+                p {
+                    &:first-child{
+                        margin-top: 71px;
+                    }
+
+                    transition: all 0.3s ease;
+                    
+                    font-size: 14px;
+                    letter-spacing: 0.6px;
+                    font-family: "Montserrat-Bold";
+                    color: white;
+                }
+                
+            }
+            
+        }
+    }
+}

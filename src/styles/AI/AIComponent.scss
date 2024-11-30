@@ -1,0 +1,113 @@
+@import "../utils/Animations.scss";
+
+.AI__wrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 147px;
+
+    .picture__content {
+        width: 400px;
+
+        .block1 {
+            padding: 9px;
+        }
+
+        .block2 {
+            background-image: url("../../img/AI_2.svg");
+        }
+
+        .block3 {
+            background-image: url("../../img/AI_3.svg");
+        }
+    }
+
+    .AI_block_text {
+        font-size: 28px;
+        letter-spacing: 1px;
+        line-height: 128.9%;
+    }
+
+    .AI__text__content {
+        padding-top: 12px;
+
+        .text__content__subtitle {
+            font-size: 14px;
+            letter-spacing: 0.69px;
+            font-family: "Montserrat-Bold";
+        }
+
+        .text__content__title {
+            padding-top: 20px;
+            font-size: 32px;
+            letter-spacing: 1.65px;
+            line-height: 40px;
+            font-family: "Montserrat-Bold";
+        }
+
+        .descr1 {
+            margin-top: 33px;
+        }
+
+        .text__content__description {
+            font-family: "Montserrat-Medium";
+            letter-spacing: 0.5px;
+            font-size: 14px;
+            line-height: 20px;
+        }
+
+        .text__content__subtitle-bottom {
+            font-family: "Montserrat-Bold";
+            font-size: 14px;
+            margin-top: 25px;
+            letter-spacing: 0.6px;
+        }
+
+        .text__content__description-bottom {
+            margin-top: 10px;
+            font-family: "Montserrat-Medium";
+            font-size: 14px;
+            line-height: 21px;
+            letter-spacing: 0.5px;
+        }
+
+        .startEarning__button {
+            max-width: 355px;
+            width: 100%;
+            font-size: 14px;
+            font-family: "Montserrat-Medium";
+            padding: 15px 20px;
+            margin-top: 38px;
+            letter-spacing: 0.8px;
+        }
+
+        .readMore {
+            cursor: pointer;
+            position: relative;
+            color: #0A51CB;
+
+            &::after {
+                content: "";
+                position: absolute;
+                top: 100%;
+                left: 0;
+                width: 10px;
+                height: 1px;
+                opacity: 0.4;
+                background-color: blue ;
+                animation: read-more__animate 1.2s ease-out infinite;
+            }
+        }
+
+        .moreInfo {
+            display: none;
+        }
+
+        .moreInfo--active {
+            display: block;
+        }
+
+        .readMore--active {
+            display: none;
+        }
+    }
+}

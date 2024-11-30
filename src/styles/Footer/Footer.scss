@@ -1,0 +1,132 @@
+@import "../utils/Animations.scss";
+
+.footer__wrapper {
+    margin-top: 109px;
+    width: 100%;
+    height: 470px;
+
+    .footer__content {
+        display: flex;
+        flex-direction: row;
+        gap: 21%;
+        padding-top: 95px;
+
+
+        .aboutCompany {
+            width: 260px;
+
+            span {
+                color: #EFEFEF;
+                font-family: "Montserrat-Regular";
+                font-size: 14px;
+                letter-spacing: 0.1px;
+            }
+        }
+
+
+        .contactInfo {
+            display: flex;
+            flex-direction: row;
+            // justify-content: space-between;
+            gap: 185px;
+
+
+            .contactInfo__title {
+                position: relative;
+                color: #EFEFEF;
+                font-family: "Montserrat-Bold";
+                font-size: 20px;
+
+                &::after {
+                    position: absolute;
+                    content: "";
+                    top: 165%;
+                    left: 0;
+                    width: 255px;
+                    height: 1px;
+                    background-color: #EFEFEF;
+                }
+            }
+
+
+            .navigationList__wrapper {
+                display: flex;
+                flex-direction: row;
+                gap: 60px;
+                margin-top: 28px;
+
+                ul {
+                    display: flex;
+                    flex-direction: column;
+                    margin-top: 5px;
+                    
+
+                    &:first-child {
+                        width: 100px;
+                        gap:3px;
+                        line-height: 20px;
+                    }
+
+                    &:last-child {
+                        width: 60px;
+                        gap: 10px;
+                    }
+
+
+                    .navigationList__item a {
+                        text-decoration: none;
+                        color: #EFEFEF;
+                        // line-height: 0px;
+                        font-family: "Montserrat-Regular";
+                        font-size: 14px;
+
+                        position: relative;
+
+                        &:hover::after {
+                            display: block;
+                            position: absolute;
+                            left: 0; 
+                            width: 100%;
+                            height: 1px; 
+                            background-color: #989898;
+                            content: "";
+                            animation: read-more__animate 0.5s ease forwards;
+                        }
+                    }
+                }
+            }
+
+
+            .contactsContent {
+                display: flex;
+                flex-direction: column;
+                
+                align-items: flex-start;
+                gap: 25px;
+
+
+                ul {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 8px;
+
+                    li {
+                        font-family: "Montserrat-Regular";
+                        
+
+                        &:first-child {
+                            margin-top: 12px;
+                            margin-bottom: 35px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+.navigationList__item {
+    color: white;
+    list-style: none;
+}

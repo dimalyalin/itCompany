@@ -1,0 +1,22 @@
+.burger__wrapper {
+    position: absolute;
+    top: 30%;
+    left: 5%;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.burger__wrapper--active {
+    top: 9%;
+}
+
+.burger__line {
+    position: relative;
+    display: block;
+    width: 20px;
+    height: 3px;
+    background-color: blue;
+}

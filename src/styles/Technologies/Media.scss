@@ -1,0 +1,56 @@
+@media (max-width: 1095px) {
+    .tech__wrapper .tech__bottom .card .card__description {
+        font-size: 14px;
+    }
+}
+
+
+@media (max-width: 934px) {
+    .tech__wrapper .tech__bottom .card .card__title {
+        font-size: 12px;
+    }
+
+    .tech__wrapper .tech__bottom .card .card__description {
+        font-size: 12px;
+    }
+
+    .tech__wrapper .tech__bottom .card {
+        height: 186px;
+    }
+}
+
+@media (max-width: 840px) {
+    .tech__wrapper .tech__bottom {
+        flex-wrap: wrap;
+    }
+
+    .tech__wrapper .tech__bottom .card .card__title {
+        font-size: 14px;
+    }
+
+    .tech__wrapper .tech__bottom .card .card__description {
+        font-size: 14px;
+    }
+
+    .tech__wrapper .tech__top .tech__title {
+        font-size: 30px;
+    }
+}
+
+
+@media (max-width: 750px) {
+    .tech__wrapper .tech__top .tech__title {
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 390px) {
+    .tech__wrapper .tech__top .tech__question {
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .tech__wrapper .tech__top .tech__title {
+        text-align: center;
+    }
+}
